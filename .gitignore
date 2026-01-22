@@ -1,0 +1,48 @@
+# Visual Studio - Debug y Release
+x64/
+Win32/
+Debug/
+Release/
+*.exe
+*.ilk
+*.pdb
+*.obj
+
+# Visual Studio project files
+.vs/
+*.vcxproj.user
+*.sln.DotSettings
+*.VC.db
+
+# Compilación
+*.lib
+*.exp
+*.dll
+*.dylib
+*.so
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# NuGet
+*.nupkg
+packages/Allegro.*/obj/
+packages/AllegroDeps.*/obj/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Node modules (si usas herramientas JS)
+node_modules/
+npm-debug.log
