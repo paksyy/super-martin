@@ -33,10 +33,8 @@ Release/
 *.swo
 *~
 
-# NuGet
-*.nupkg
-packages/Allegro.*/obj/
-packages/AllegroDeps.*/obj/
+# NuGet - Ignorar todos los paquetes descargados
+packages/
 
 # OS
 .DS_Store
